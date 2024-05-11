@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: auto; /* Adjusted height of the flexbox */
+      color: blue;
+      background-color: skyblue;
+    }
+    .container > div {
+      background-color: greenyellow;
+      width: 150px; /* Increased width of each flex item */
+      height: 150px; /* Increased height of each flex item */
+      margin: 10px;
+      text-align: center;
+      line-height: 150px; /* Adjusted line-height for vertical alignment */
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container > div img {
+      max-width: 100%; /* Ensure image fits inside the div */
+      max-height: 100%; /* Ensure image fits inside the div */
+      display: block; /* Remove inline-block extra space */
+    }
+
+    .cn1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: auto; /* Adjusted height of the flexbox */
+      color: blue;
+      background-color: skyblue;
+    }
+    .cn1 > div {
+      background-color: yellowgreen;
+      width: 65px; /* Increased width of each flex item */
+      height: 200px; /* Increased height of each flex item */
+      margin:10px;
+      text-align: center;
+      line-height: 200px; /* Adjusted line-height for vertical alignment */
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cn1 > div img {
+      max-width: 100%; /* Ensure image fits inside the div */
+      max-height: 100%; /* Ensure image fits inside the div */
+      display: block; /* Remove inline-block extra space */
+    }
+
+    .cn2 {
+      display: flex;
+      flex-direction: column;
+      background-color: skyblue;
+    }
+    .cn2 > div {
+      background-color: skyblue;
+      width: 50px; /* Increased width of each flex item */
+      height: 120px; /* Increased height of each flex item */
+      margin:5px;
+      text-align: center;
+      line-height: 90px; /* Adjusted line-height for vertical alignment */
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cn2 > div img {
+      max-width: 80px; /* Ensure image fits inside the div */
+      max-height: 100%; /* Ensure image fits inside the div */
+      display: block; /* Remove inline-block extra space */
+    }
+
+    .cn4 > div {
+      background-color: greenyellow;
+      width: 100px; /* Increased width of each flex item */
+      height: 180px; /* Increased height of each flex item */
+      margin: 5px;
+      text-align: center;
+      line-height: 100px; /* Adjusted line-height for vertical alignment */
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cn4 > div img {
+      max-width: 60px; /* Ensure image fits inside the div */
+      max-height: 100px; /* Ensure image fits inside the div */
+      display: block; /* Remove inline-block extra space */
+    }
+
+    .cn5 > div {
+      background-color: greenyellow;
+      width: 150px; /* Increased width of each flex item */
+      height: 200px; /* Increased height of each flex item */
+      margin: 5px;
+      text-align: center;
+      line-height: 150px; /* Adjusted line-height for vertical alignment */
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cn5 > div img {
+      max-width: 100%; /* Ensure image fits inside the div */
+      max-height: 100%; /* Ensure image fits inside the div */
+      display: block; /* Remove inline-block extra space */
+    }
+    .cnn1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: auto; /* Adjusted height of the flexbox */
+      color: skyblue;
+      background-color: skyblue;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div><img src="https://th.bing.com/th?id=OIP.V4Zd00MQzprLy_Ri0Pcn-AHaFF&w=301&h=207&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Image 1"></div>
+    <div><img src="https://th.bing.com/th/id/OIP.8C2eBjTxLg8IXeXQbIjXowHaEo?w=258&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Image 2"></div>
+  </div>
+  <div class="cnn1">
+    <div class="cn1">
+      <div class="cn2">
+        <div><img src="https://i.pinimg.com/564x/a6/b3/6f/a6b36ffda14c50808164262faa3ed010.jpg" alt="Image 3"></div>
+        <div><img src="https://i.pinimg.com/564x/aa/85/ae/aa85ae40722fc5f1edf527ea98921cfd.jpg" alt="Image 4"></div>
+      </div>
+      <div class="cn4">
+        <div><img src="https://i.pinimg.com/474x/2b/e1/14/2be114df40819bfc34fb0b16edfeaf17.jpg" alt="Image 5"></div>
+      </div>
+    </div>
+    <div class="cn5">
+      <div><img src="https://i.pinimg.com/736x/09/fc/a3/09fca3444844286e9394e16c2bf4ae1e.jpg" alt="Image 6"></div>
+    </div>
+  </div>
+
+</body>
+</html>
